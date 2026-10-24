@@ -1,4 +1,5 @@
 import AvatarRow from "@/components/AvatarRow";
+import PlayerCard from "@/components/PlayerCard";
 import Image from "next/image";
 
 export default function Home() {
@@ -19,13 +20,8 @@ export default function Home() {
           <AvatarRow />
         </div>
 
-        {/* Card */}
-        <div className="mt-12 flex w-[500px] max-w-full flex-col gap-3 bg-black/20 p-[18px]">
-          <div className="h-[42px]" />
-
-          <div className="h-[150px] bg-black/20" />
-
-          <div className="h-[130px]" />
+        <div className="mt-12 ">
+        <PlayerCard/>
         </div>
       </main>
 
